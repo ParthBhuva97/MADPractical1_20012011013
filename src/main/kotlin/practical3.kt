@@ -1,5 +1,13 @@
 fun main() {
-    print("Enter Number:")
-    val x = readLine()!!.toInt()
-    println("x = $x")
+    print("Student Enrollment No :")
+    val eno = readLine()!!.toLong()
+    print("Student Name:")
+    val name = readLine()!!.toLong()
+    print("Student Branch:")
+    val branch = readLine()!!
+    print("Student Class:")
+    val c = readLine()!!
+    print("Student :")
+
+
 }
