@@ -1,7 +1,8 @@
 fun main() {
-    val x = 500
+    print("Enter Number : ")
+    val x = readLine()!!.toInt()
     println(
-        if (x>0){
+        if (x>=0){
             "Positive"
         }else{
             "Negative"
