@@ -2,7 +2,7 @@ fun main() {
     print("Student Enrollment No.:")
     val eno = readLine()!!.toLong()
     print("Student Name:")
-    val name = readLine()!!.toLong()
+    val name = readLine()!!
     print("Student Branch:")
     val branch = readLine()!!
     print("Student Class:")
@@ -14,19 +14,19 @@ fun main() {
     print("Student University Name:")
     val uni = readLine()!!
     print("Student Age:")
-    val age = readLine()!!
-
-    print("************************************")
-
-    print("Student's Data:")
-    print("Enrollment No.:${eno}")
-    print("Name:${name}")
-    print("Age:${age}")
-    print("Branch:${branch}")
-    print("Class:${c}")
-    print("Batch:${batch}")
-    print("College Name::${college}")
-    print("University Name:${uni}")
+    val age = readLine()!!.toInt()
+    println()
+    println("************************************")
+    println()
+    println("Student's Data:")
+    println("Enrollment No.:${eno}")
+    println("Name:${name}")
+    println("Age:${age}")
+    println("Branch:${branch}")
+    println("Class:${c}")
+    println("Batch:${batch}")
+    println("College Name::${college}")
+    println("University Name:${uni}")
 
 
 }
