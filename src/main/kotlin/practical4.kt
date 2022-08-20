@@ -3,9 +3,9 @@ fun main() {
     val x = readLine()!!.toInt()
     println(
         if (x%2==0){
-            "Even"
+            " $x is Even"
         }else{
-            "Odd"
+            "$x is Odd"
         }
     )
 }
