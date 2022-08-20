@@ -15,7 +15,7 @@ fun main() {
             10-> "October"
             11-> "November"
             12-> "December"
-            else-> "Enter Valid Month Number"
+            else-> "Please Enter Proper Number"
 
         }
     )
