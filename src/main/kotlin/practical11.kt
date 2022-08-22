@@ -1,5 +1,3 @@
-import java.util.*
-
 fun main() {
     val firstMatrix = Matrix(arrayOf(intArrayOf(3,-2,5), intArrayOf(3,0,4)),2,3)
     val secondMatrix = Matrix(arrayOf(intArrayOf(2,3),intArrayOf(-9,0), intArrayOf(0,4)),3,2)
