@@ -46,7 +46,10 @@ fun main() {
     car2.displayCarInfo()
 //    val car3 = Car("Toyota, 2017","KJS",100,1080000.0,1079000.0)
 //    val car4 = Car("Maruti, 2020","NPP",200,4000000.0,3998000.0)
-//    println("\n********** ArrayList of Car **********")
-//    val car3 = arrayListOf<Any>("Toyota, 2017","KJS",100,1080000.0,1079000.0)
-//    val car4 = arrayListOf<Any>("Maruti, 2020","NPP",200,4000000.0,3998000.0)
+    println("\n********** ArrayList of Car **********")
+    val carlist = ArrayList<Car>()
+    carlist.add(Car("Toyota, 2017","KJS",100,1080000.0,1079000.0))
+    carlist.add(Car("Maruti, 2020","NPP",200,4000000.0,3998000.0))
+    carlist[0].displayCarInfo()
+    carlist[1].displayCarInfo()
 }
